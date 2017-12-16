@@ -11809,7 +11809,6 @@ Python 3.6 and the following libraries:</p>
 <span class="kn">import</span> <span class="nn">sklearn</span>
 <span class="kn">import</span> <span class="nn">warnings</span>
 <span class="kn">import</span> <span class="nn">math</span>
-<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">&quot;ignore&quot;</span><span class="p">)</span>
 <span class="c1">#load the data into the sightings dataframe</span>
 <span class="n">sightings</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;scrubbed.csv&quot;</span><span class="p">)</span>
 <span class="c1">#display the first few values</span>
@@ -14912,7 +14911,7 @@ FPAVEyBjpWMjIcMwDCM2bGGCYRiGERsmQoZhGEZsmAgZhmEYsWEiZBiGYcSGiZBhGIYRG/8PRd+F
 </div>
 </div>
 
-</div>From the graph one can identify that the minimum validation error occurs near the 3rd or 4th degree. After which, the validation error begins to sporadically increase. The minimum validation error occurs at the 4th degree, and thus that will be the degree that we use for our polyfit predictor.
+</div>From the graph can identify that the minimum validation error occurs near the 3rd or 4th degree. After which, the validation error begins to sporadically increase. The minimum validation error occurs at the 4th degree, and thus that will be the degree that we use for our polyfit predictor.
 
 Now we can train our predictor and test it out on our test dataset.
 <div class="cell border-box-sizing code_cell rendered">
